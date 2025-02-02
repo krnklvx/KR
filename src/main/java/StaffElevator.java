@@ -6,7 +6,7 @@ class StaffElevator extends Elevator {
     @Override
     public void call(int floor) {
         if (floor % 1 == 0) {
-            this.destinationFloor = floor;// Сотрудник может вызывать на любой этаж
+            this.destinationFloor = floor;
             this.state = ElevatorState.MOVING_UP;// Пример: движется вверх
             System.out.println("Лифт поднимается");
         } else if (floor % 1 == 0) {
