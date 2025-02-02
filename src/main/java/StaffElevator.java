@@ -7,7 +7,7 @@ class StaffElevator extends Elevator {
     public void call(int floor) {
         if (floor % 1 == 0) {
             this.destinationFloor = floor;
-            this.state = ElevatorState.MOVING_UP;// Пример: движется вверх
+            this.state = ElevatorState.MOVING_UP;
             System.out.println("Лифт поднимается");
         } else if (floor % 1 == 0) {
             this.destinationFloor = floor;
