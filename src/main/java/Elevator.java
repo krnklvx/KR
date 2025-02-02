@@ -1,7 +1,7 @@
 abstract class Elevator {
     protected ElevatorState state;
-    protected int currentFloor = 1; // Начинаем с 1-го этажа
-    protected Integer destinationFloor = null; // Этаж назначения
+    protected int currentFloor = 1;
+    protected Integer destinationFloor = null; 
 
     public abstract void call(int floor);
 
