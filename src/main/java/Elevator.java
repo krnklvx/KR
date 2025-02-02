@@ -23,7 +23,6 @@ abstract class Elevator {
                 break;
             case STATIONARY:
             case OUT_OF_ORDER:
-                // Ничего не делаем
                 break;
         }
     }
